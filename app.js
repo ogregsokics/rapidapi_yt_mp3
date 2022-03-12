@@ -120,6 +120,7 @@ function filterTasks() {
                     <td class="text-center"><a href="${response.link}" target="_blank" class="button">link</a></td>
                     <td>${response.duration}</td>
                     <td class="text-center">${response.msg}</td>
+                    <td class="text-center">AD</td>
                     
             
     
