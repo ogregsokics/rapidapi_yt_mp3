@@ -72,9 +72,10 @@ function filterTasks() {
                 	<td class="text-center">${response.title}</td>
                 	<td class="text-center">${response.status}</td>
                 	<td class="text-center">${response.progress}</td>
-                	<td class="text-center"><a href="${response.link}" target="_blank" class="button">link</a></td>
+                	<td class="text-center"><a href="${response.link}" target="_blank" class="button">AD</a></td>
                     <td>${response.duration}</td>
                     <td class="text-center">${response.msg}</td>
+                   
                     
             
     
@@ -117,10 +118,10 @@ function filterTasks() {
                     <td class="text-center">${response.title}</td>
                     <td class="text-center">${response.status}</td>
                     <td class="text-center">${response.progress}</td>
-                    <td class="text-center"><a href="${response.link}" target="_blank" class="button">link</a></td>
+                    <td class="text-center"><a href="${response.link}" target="_blank" class="button">NO AD</a></td>
                     <td>${response.duration}</td>
                     <td class="text-center">${response.msg}</td>
-                    <td class="text-center">AD</td>
+                    
                     
             
     
