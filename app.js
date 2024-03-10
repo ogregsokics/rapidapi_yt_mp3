@@ -53,7 +53,7 @@ function filterTasks() {
     purelinks.forEach(element => {
 
 
-        fetch(`https://youtube-mp3-download1.p.rapidapi.com/dl?id=${element}`, {
+       /* fetch(`https://youtube-mp3-download1.p.rapidapi.com/dl?id=${element}`, {
             "method": "GET",
             "headers": {
                 "x-rapidapi-host": "youtube-mp3-download1.p.rapidapi.com",
@@ -94,7 +94,7 @@ function filterTasks() {
         .catch(err => {
             console.error(err);
         });
-
+*/
 
 
 
