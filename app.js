@@ -99,10 +99,10 @@ function filterTasks() {
 
 
 
-         fetch(`https://youtube-mp36.p.rapidapi.com/dl?id=${element}`, {
+       fetch(`https://youtube-mp36.p.rapidapi.com/dl?id=${element}`, {
             "method": "GET",
             "headers": {
-                "x-rapidapi-host": "youtube-to-mp315.p.rapidapi.com",
+                "x-rapidapi-host": "youtube-mp36.p.rapidapi.com",
                 "x-rapidapi-key": "4770b12c5amsh9b06efcd3d10c58p122a93jsna056f7f60658"
             }
         })
